@@ -1,0 +1,70 @@
+body{
+	background: $body-bg !important;
+	color:#fff;
+}
+
+h1, h2, h3, h4, h5, h6, label{
+	color:#fff;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.top-bar{
+	margin-top:30px;
+}
+
+.top-bar li.active{
+	background: #000;
+}
+
+.slider{
+	margin-top:20px;
+}
+
+.orbit-container .orbit-slides-container > * .orbit-caption{
+	background: $primary-color;
+	color:#fff;
+	width:70%;
+	opacity: 0.8;
+}
+
+.orbit-container .orbit-slides-container > * .orbit-caption h1{
+	font-size: 2.769em;
+	font-weight:300;
+	color:#fff;
+	text-transform: uppercase;
+	line-height: 1.3em;
+}
+
+.orbit-container .orbit-slides-container > * .orbit-caption h1 a{
+	color:#fff;
+}
+
+.icons{
+	text-align:center;
+	padding-top: 20px;
+	background:#000;
+	width:100%;
+	overflow:hidden;
+}
+
+.icons i{
+	font-size:40px;
+	background: #333;
+	padding:30px;
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+
+.panel{
+	background: #333;
+	color:#fff;
+	border-color: #666;
+}
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p{
+	color:#fff;
+}
+
+.about .fa{
+	font-size:90px;
+}
